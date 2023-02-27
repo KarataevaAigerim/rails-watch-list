@@ -1,6 +1,6 @@
 <div class="cover mb-4 d-flex align-items-center justify-content-center">
-  <div class="text-center text-white">
-    <h1>Welcome to Netflix</h1>
+  <div class="text-center text-black">
+    <h1>Welcome to your Universe</h1>
   </div>
 </div>
 
@@ -11,7 +11,7 @@
 
   <div class="row">
     <% @lists.each do |l| %>
-      <div class="co-12 col-sm-6 col-md-4 mb-3">
+      <div >
         <h2><%= link_to l.name, list_path(l)%></h2>
           <% end %>
       </div>
